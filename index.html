@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Fitts' Law Experiment</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div>
+  <h2>🎯 Fitts' Law Experiment</h2>
+  <canvas id="gameCanvas" width="800" height="520"></canvas>
+</div>
+
+<div id="controls">
+  <div>
+    <button onclick="setLevel('normal')">Normal</button>
+    <button onclick="setLevel('medium')">Medium</button>
+    <button onclick="setLevel('hard')">Hard</button>
+  </div>
+  <div class="card" id="livesCard">Lives: 3</div>
+  <div class="card" id="trialCard">Trial: 0</div>
+  <div class="card" id="lastTimeCard">Last Time: -</div>
+  <div class="card" id="avgTimeCard">Avg Time: -</div>
+  <button onclick="downloadCSV()">Download CSV</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
