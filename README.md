@@ -26,9 +26,5 @@
 - **Trial Logging and CSV Export**  
   - Logs trial number, distances, ID, MT, hit/miss, and timestamp.  
   - Download experiment data as CSV for analysis.
-
-
-
-1. Clone the repository:
-```bash
-git clone https://github.com/toobashafiq/hci-mouse-based-target-selection-FITTS-LAW--toobashafiq173.git
+-** Live Link**
+    https://hci-mouse-based-target-selection-to.vercel.app/
